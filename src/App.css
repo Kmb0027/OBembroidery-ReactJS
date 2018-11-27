@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  font-family: cursive
+  font-family: cursive;
+  background-color:#e7d734;
 }
 
 .App-logo {
@@ -16,17 +17,26 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
+  font-family: cursive;
 }
 
 .App-link {
   color: #5f17b1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar{
+  background-color: #e7d734;
+  text-align: left;
+  font-family: cursive;
+}
+
+.Contact{
+  background-color: #e7d734;
+  color: #000000;
+  font-family: cursive;
+}
+
+.Gallery{
+  background-color: #e7d734;
+  color: #000000;
 }
