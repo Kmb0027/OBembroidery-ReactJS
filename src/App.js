@@ -5,6 +5,7 @@ import picture1 from './pic1.jpg';
 import picture2 from './pic2.jpg';
 import {Link, Route, Switch} from 'react-router-dom';
 
+//Home page with logo
 const Home = () =>(
   <div>
       <header className="App-header">
@@ -15,7 +16,7 @@ const Home = () =>(
       </header> 
   </div>
 )
-
+//Contact page with link to creators instagram
 const Contact = () =>(
         <div>
         <header className="Contact">
@@ -30,7 +31,7 @@ const Contact = () =>(
         </header>
         </div>
 )
-
+//Gallery with sample pictures
 const Gallery = () =>(
         <div>
           <header className="Gallery">
@@ -43,6 +44,7 @@ const Gallery = () =>(
         </div>
         
 )
+//App contains the nav bar and links to the other pages
 class App extends Component {
   render() {
     return (

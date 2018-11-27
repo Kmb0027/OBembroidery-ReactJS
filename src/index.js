@@ -5,5 +5,6 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter} from 'react-router-dom';
 
+//BrowserRouter tag allows for page routing
 ReactDOM.render(<BrowserRouter><App /></BrowserRouter>, document.getElementById('root'));
 serviceWorker.unregister();
